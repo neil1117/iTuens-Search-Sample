@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  AotterTest
+//
+//  Created by Neil Wu on 2019/6/23.
+//  Copyright © 2019 Neil Wu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <UIKit/UIKit.h>
+#import "AFNetWorking.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import "Constants.h"
+#import "ColorTheme.h"
+#import "BaseViewController.h"
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF2B16044A00A7EADCF12DF /* libPods-AotterTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F331C645B048876E2A3C3770 /* libPods-AotterTestUITests.a */; };
+		C47E977222BB89E100175606 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E977022BB89E100175606 /* SearchViewController.m */; };
+		C47E977322BB89E100175606 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E977122BB89E100175606 /* SearchViewController.xib */; };
+		C47E977A22BBC95900175606 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E977822BBC95900175606 /* DetailTableViewCell.m */; };
+		C47E977B22BBC95900175606 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E977922BBC95900175606 /* DetailTableViewCell.xib */; };
+		C498A64222BF8391001E7288 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C498A64022BF8391001E7288 /* ColorViewController.m */; };
+		C498A64322BF8391001E7288 /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C498A64122BF8391001E7288 /* ColorViewController.xib */; };
+		C498A64722BF83A5001E7288 /* StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C498A64522BF83A5001E7288 /* StarViewController.m */; };
+		C498A64822BF83A5001E7288 /* StarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C498A64622BF83A5001E7288 /* StarViewController.xib */; };
+		C498A65122BF9575001E7288 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C498A64F22BF9575001E7288 /* ResultViewController.m */; };
+		C498A65222BF9575001E7288 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C498A65022BF9575001E7288 /* ResultViewController.xib */; };
+		C4AF731022BB794800B9357C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AF730F22BB794800B9357C /* AppDelegate.m */; };
+		C4AF731822BB794A00B9357C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AF731722BB794A00B9357C /* Assets.xcassets */; };
+		C4AF731B22BB794A00B9357C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AF731922BB794A00B9357C /* LaunchScreen.storyboard */; };
+		C4AF731E22BB794A00B9357C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AF731D22BB794A00B9357C /* main.m */; };
+		C4AF732822BB794A00B9357C /* AotterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AF732722BB794A00B9357C /* AotterTestTests.m */; };
+		C4AF733322BB794A00B9357C /* AotterTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AF733222BB794A00B9357C /* AotterTestUITests.m */; };
+		C4AF734822BB850800B9357C /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AF734622BB850800B9357C /* PersonalInfoViewController.m */; };
+		C4AF734922BB850800B9357C /* PersonalInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AF734722BB850800B9357C /* PersonalInfoViewController.xib */; };
+		C4E1269522C0CDD400876DD2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E1269322C0CDD400876DD2 /* WebViewController.m */; };
+		C4E1269622C0CDD400876DD2 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E1269422C0CDD400876DD2 /* WebViewController.xib */; };
+		C4E1269822C0D47400876DD2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E1269722C0D47400876DD2 /* WebKit.framework */; };
+		C4E1269B22C0D61B00876DD2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E1269A22C0D61B00876DD2 /* BaseViewController.m */; };
+		C4E1269E22C0D6AD00876DD2 /* ColorTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E1269D22C0D6AD00876DD2 /* ColorTheme.m */; };
+		C653510844BB65592F73DB71 /* libPods-AotterTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B1EC5E831D2CABB7A5461 /* libPods-AotterTest.a */; };
+		E3EDDF7CCF5EE3F94DAEE39B /* libPods-AotterTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 482005C049209BFBA7FA30D0 /* libPods-AotterTestTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4AF732422BB794A00B9357C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4AF730322BB794800B9357C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4AF730A22BB794800B9357C;
+			remoteInfo = AotterTest;
+		};
+		C4AF732F22BB794A00B9357C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4AF730322BB794800B9357C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4AF730A22BB794800B9357C;
+			remoteInfo = AotterTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15074E99AB91D6D11B4C229C /* Pods-AotterTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTest/Pods-AotterTest.release.xcconfig"; sourceTree = "<group>"; };
+		292B1EC5E831D2CABB7A5461 /* libPods-AotterTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA9417F4E6564C3F7D3FAE7 /* Pods-AotterTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTestUITests/Pods-AotterTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41DC205832F37E48F9B66D0D /* Pods-AotterTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTestUITests/Pods-AotterTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		482005C049209BFBA7FA30D0 /* libPods-AotterTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86565F1B9D00FE2EE213D40B /* Pods-AotterTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTestTests/Pods-AotterTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C47E976F22BB89E100175606 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C47E977022BB89E100175606 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C47E977122BB89E100175606 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		C47E977722BBC95900175606 /* DetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		C47E977822BBC95900175606 /* DetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		C47E977922BBC95900175606 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		C498A63F22BF8391001E7288 /* ColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		C498A64022BF8391001E7288 /* ColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		C498A64122BF8391001E7288 /* ColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorViewController.xib; sourceTree = "<group>"; };
+		C498A64422BF83A5001E7288 /* StarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarViewController.h; sourceTree = "<group>"; };
+		C498A64522BF83A5001E7288 /* StarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarViewController.m; sourceTree = "<group>"; };
+		C498A64622BF83A5001E7288 /* StarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarViewController.xib; sourceTree = "<group>"; };
+		C498A64E22BF9575001E7288 /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		C498A64F22BF9575001E7288 /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		C498A65022BF9575001E7288 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		C498A65322BF9820001E7288 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C498A65422BF984B001E7288 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C4AF730B22BB794800B9357C /* AotterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AotterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AF730E22BB794800B9357C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4AF730F22BB794800B9357C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4AF731722BB794A00B9357C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4AF731A22BB794A00B9357C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4AF731C22BB794A00B9357C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AF731D22BB794A00B9357C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4AF732322BB794A00B9357C /* AotterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AotterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AF732722BB794A00B9357C /* AotterTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AotterTestTests.m; sourceTree = "<group>"; };
+		C4AF732922BB794A00B9357C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AF732E22BB794A00B9357C /* AotterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AotterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AF733222BB794A00B9357C /* AotterTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AotterTestUITests.m; sourceTree = "<group>"; };
+		C4AF733422BB794A00B9357C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AF734522BB850800B9357C /* PersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		C4AF734622BB850800B9357C /* PersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		C4AF734722BB850800B9357C /* PersonalInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInfoViewController.xib; sourceTree = "<group>"; };
+		C4E1269222C0CDD400876DD2 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C4E1269322C0CDD400876DD2 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C4E1269422C0CDD400876DD2 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		C4E1269722C0D47400876DD2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C4E1269922C0D61B00876DD2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C4E1269A22C0D61B00876DD2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C4E1269C22C0D6AD00876DD2 /* ColorTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorTheme.h; sourceTree = "<group>"; };
+		C4E1269D22C0D6AD00876DD2 /* ColorTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorTheme.m; sourceTree = "<group>"; };
+		D428A307BCF580B11F259898 /* Pods-AotterTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTest/Pods-AotterTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9C66AA01AB9D39E23F91A1 /* Pods-AotterTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AotterTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AotterTestTests/Pods-AotterTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F331C645B048876E2A3C3770 /* libPods-AotterTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AotterTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4AF730822BB794800B9357C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E1269822C0D47400876DD2 /* WebKit.framework in Frameworks */,
+				C653510844BB65592F73DB71 /* libPods-AotterTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF732022BB794A00B9357C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EDDF7CCF5EE3F94DAEE39B /* libPods-AotterTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF732B22BB794A00B9357C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2B16044A00A7EADCF12DF /* libPods-AotterTestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D909147B326D9D4E281ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E1269722C0D47400876DD2 /* WebKit.framework */,
+				292B1EC5E831D2CABB7A5461 /* libPods-AotterTest.a */,
+				482005C049209BFBA7FA30D0 /* libPods-AotterTestTests.a */,
+				F331C645B048876E2A3C3770 /* libPods-AotterTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7D58D80491135ADE569B0A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D428A307BCF580B11F259898 /* Pods-AotterTest.debug.xcconfig */,
+				15074E99AB91D6D11B4C229C /* Pods-AotterTest.release.xcconfig */,
+				DE9C66AA01AB9D39E23F91A1 /* Pods-AotterTestTests.debug.xcconfig */,
+				86565F1B9D00FE2EE213D40B /* Pods-AotterTestTests.release.xcconfig */,
+				2AA9417F4E6564C3F7D3FAE7 /* Pods-AotterTestUITests.debug.xcconfig */,
+				41DC205832F37E48F9B66D0D /* Pods-AotterTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C47E977F22BBCBB300175606 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF734522BB850800B9357C /* PersonalInfoViewController.h */,
+				C4AF734622BB850800B9357C /* PersonalInfoViewController.m */,
+				C4AF734722BB850800B9357C /* PersonalInfoViewController.xib */,
+				C47E976F22BB89E100175606 /* SearchViewController.h */,
+				C47E977022BB89E100175606 /* SearchViewController.m */,
+				C47E977122BB89E100175606 /* SearchViewController.xib */,
+				C498A63F22BF8391001E7288 /* ColorViewController.h */,
+				C498A64022BF8391001E7288 /* ColorViewController.m */,
+				C498A64122BF8391001E7288 /* ColorViewController.xib */,
+				C498A64422BF83A5001E7288 /* StarViewController.h */,
+				C498A64522BF83A5001E7288 /* StarViewController.m */,
+				C498A64622BF83A5001E7288 /* StarViewController.xib */,
+				C498A64E22BF9575001E7288 /* ResultViewController.h */,
+				C498A64F22BF9575001E7288 /* ResultViewController.m */,
+				C498A65022BF9575001E7288 /* ResultViewController.xib */,
+				C4E1269222C0CDD400876DD2 /* WebViewController.h */,
+				C4E1269322C0CDD400876DD2 /* WebViewController.m */,
+				C4E1269422C0CDD400876DD2 /* WebViewController.xib */,
+				C4E1269922C0D61B00876DD2 /* BaseViewController.h */,
+				C4E1269A22C0D61B00876DD2 /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4AF730222BB794800B9357C = {
+			isa = PBXGroup;
+			children = (
+				C4AF730D22BB794800B9357C /* AotterTest */,
+				C4AF732622BB794A00B9357C /* AotterTestTests */,
+				C4AF733122BB794A00B9357C /* AotterTestUITests */,
+				C4AF730C22BB794800B9357C /* Products */,
+				B7D58D80491135ADE569B0A7 /* Pods */,
+				10D909147B326D9D4E281ED8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4AF730C22BB794800B9357C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF730B22BB794800B9357C /* AotterTest.app */,
+				C4AF732322BB794A00B9357C /* AotterTestTests.xctest */,
+				C4AF732E22BB794A00B9357C /* AotterTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AF730D22BB794800B9357C /* AotterTest */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF730E22BB794800B9357C /* AppDelegate.h */,
+				C4AF730F22BB794800B9357C /* AppDelegate.m */,
+				C498A65322BF9820001E7288 /* Constants.h */,
+				C47E977F22BBCBB300175606 /* Controller */,
+				C47E977722BBC95900175606 /* DetailTableViewCell.h */,
+				C47E977822BBC95900175606 /* DetailTableViewCell.m */,
+				C47E977922BBC95900175606 /* DetailTableViewCell.xib */,
+				C4AF731722BB794A00B9357C /* Assets.xcassets */,
+				C498A65422BF984B001E7288 /* PrefixHeader.pch */,
+				C4AF731922BB794A00B9357C /* LaunchScreen.storyboard */,
+				C4AF731C22BB794A00B9357C /* Info.plist */,
+				C4AF731D22BB794A00B9357C /* main.m */,
+				C4E1269C22C0D6AD00876DD2 /* ColorTheme.h */,
+				C4E1269D22C0D6AD00876DD2 /* ColorTheme.m */,
+			);
+			path = AotterTest;
+			sourceTree = "<group>";
+		};
+		C4AF732622BB794A00B9357C /* AotterTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF732722BB794A00B9357C /* AotterTestTests.m */,
+				C4AF732922BB794A00B9357C /* Info.plist */,
+			);
+			path = AotterTestTests;
+			sourceTree = "<group>";
+		};
+		C4AF733122BB794A00B9357C /* AotterTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AF733222BB794A00B9357C /* AotterTestUITests.m */,
+				C4AF733422BB794A00B9357C /* Info.plist */,
+			);
+			path = AotterTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4AF730A22BB794800B9357C /* AotterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AF733722BB794A00B9357C /* Build configuration list for PBXNativeTarget "AotterTest" */;
+			buildPhases = (
+				F3D4AE6D004C6BC34FDA109A /* [CP] Check Pods Manifest.lock */,
+				C4AF730722BB794800B9357C /* Sources */,
+				C4AF730822BB794800B9357C /* Frameworks */,
+				C4AF730922BB794800B9357C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AotterTest;
+			productName = AotterTest;
+			productReference = C4AF730B22BB794800B9357C /* AotterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4AF732222BB794A00B9357C /* AotterTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AF733A22BB794A00B9357C /* Build configuration list for PBXNativeTarget "AotterTestTests" */;
+			buildPhases = (
+				85EE12BA4BD4F8E65D4EB3A9 /* [CP] Check Pods Manifest.lock */,
+				C4AF731F22BB794A00B9357C /* Sources */,
+				C4AF732022BB794A00B9357C /* Frameworks */,
+				C4AF732122BB794A00B9357C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AF732522BB794A00B9357C /* PBXTargetDependency */,
+			);
+			name = AotterTestTests;
+			productName = AotterTestTests;
+			productReference = C4AF732322BB794A00B9357C /* AotterTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4AF732D22BB794A00B9357C /* AotterTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AF733D22BB794A00B9357C /* Build configuration list for PBXNativeTarget "AotterTestUITests" */;
+			buildPhases = (
+				A176A7FA17787AF320ED7106 /* [CP] Check Pods Manifest.lock */,
+				C4AF732A22BB794A00B9357C /* Sources */,
+				C4AF732B22BB794A00B9357C /* Frameworks */,
+				C4AF732C22BB794A00B9357C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AF733022BB794A00B9357C /* PBXTargetDependency */,
+			);
+			name = AotterTestUITests;
+			productName = AotterTestUITests;
+			productReference = C4AF732E22BB794A00B9357C /* AotterTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4AF730322BB794800B9357C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Neil Wu";
+				TargetAttributes = {
+					C4AF730A22BB794800B9357C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C4AF732222BB794A00B9357C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C4AF730A22BB794800B9357C;
+					};
+					C4AF732D22BB794A00B9357C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C4AF730A22BB794800B9357C;
+					};
+				};
+			};
+			buildConfigurationList = C4AF730622BB794800B9357C /* Build configuration list for PBXProject "AotterTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4AF730222BB794800B9357C;
+			productRefGroup = C4AF730C22BB794800B9357C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4AF730A22BB794800B9357C /* AotterTest */,
+				C4AF732222BB794A00B9357C /* AotterTestTests */,
+				C4AF732D22BB794A00B9357C /* AotterTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AF730922BB794800B9357C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF731B22BB794A00B9357C /* LaunchScreen.storyboard in Resources */,
+				C47E977B22BBC95900175606 /* DetailTableViewCell.xib in Resources */,
+				C498A64822BF83A5001E7288 /* StarViewController.xib in Resources */,
+				C4E1269622C0CDD400876DD2 /* WebViewController.xib in Resources */,
+				C498A64322BF8391001E7288 /* ColorViewController.xib in Resources */,
+				C4AF731822BB794A00B9357C /* Assets.xcassets in Resources */,
+				C47E977322BB89E100175606 /* SearchViewController.xib in Resources */,
+				C4AF734922BB850800B9357C /* PersonalInfoViewController.xib in Resources */,
+				C498A65222BF9575001E7288 /* ResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF732122BB794A00B9357C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF732C22BB794A00B9357C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85EE12BA4BD4F8E65D4EB3A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AotterTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A176A7FA17787AF320ED7106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AotterTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D4AE6D004C6BC34FDA109A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AotterTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AF730722BB794800B9357C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF731E22BB794A00B9357C /* main.m in Sources */,
+				C4E1269B22C0D61B00876DD2 /* BaseViewController.m in Sources */,
+				C47E977A22BBC95900175606 /* DetailTableViewCell.m in Sources */,
+				C498A64722BF83A5001E7288 /* StarViewController.m in Sources */,
+				C498A64222BF8391001E7288 /* ColorViewController.m in Sources */,
+				C4E1269E22C0D6AD00876DD2 /* ColorTheme.m in Sources */,
+				C4E1269522C0CDD400876DD2 /* WebViewController.m in Sources */,
+				C4AF734822BB850800B9357C /* PersonalInfoViewController.m in Sources */,
+				C47E977222BB89E100175606 /* SearchViewController.m in Sources */,
+				C4AF731022BB794800B9357C /* AppDelegate.m in Sources */,
+				C498A65122BF9575001E7288 /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF731F22BB794A00B9357C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF732822BB794A00B9357C /* AotterTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF732A22BB794A00B9357C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AF733322BB794A00B9357C /* AotterTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4AF732522BB794A00B9357C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4AF730A22BB794800B9357C /* AotterTest */;
+			targetProxy = C4AF732422BB794A00B9357C /* PBXContainerItemProxy */;
+		};
+		C4AF733022BB794A00B9357C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4AF730A22BB794800B9357C /* AotterTest */;
+			targetProxy = C4AF732F22BB794A00B9357C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4AF731922BB794A00B9357C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AF731A22BB794A00B9357C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4AF733522BB794A00B9357C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4AF733622BB794A00B9357C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AF733822BB794A00B9357C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D428A307BCF580B11F259898 /* Pods-AotterTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AotterTest/PrefixHeader.pch";
+				INFOPLIST_FILE = AotterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neil.wu.AotterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4AF733922BB794A00B9357C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15074E99AB91D6D11B4C229C /* Pods-AotterTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AotterTest/PrefixHeader.pch";
+				INFOPLIST_FILE = AotterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neil.wu.AotterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4AF733B22BB794A00B9357C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9C66AA01AB9D39E23F91A1 /* Pods-AotterTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AotterTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neil.wu.AotterTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AotterTest.app/AotterTest";
+			};
+			name = Debug;
+		};
+		C4AF733C22BB794A00B9357C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86565F1B9D00FE2EE213D40B /* Pods-AotterTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AotterTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neil.wu.AotterTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AotterTest.app/AotterTest";
+			};
+			name = Release;
+		};
+		C4AF733E22BB794A00B9357C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA9417F4E6564C3F7D3FAE7 /* Pods-AotterTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AotterTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neil.wu.AotterTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AotterTest;
+			};
+			name = Debug;
+		};
+		C4AF733F22BB794A00B9357C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DC205832F37E48F9B66D0D /* Pods-AotterTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AotterTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = neil.wu.AotterTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AotterTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4AF730622BB794800B9357C /* Build configuration list for PBXProject "AotterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AF733522BB794A00B9357C /* Debug */,
+				C4AF733622BB794A00B9357C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AF733722BB794A00B9357C /* Build configuration list for PBXNativeTarget "AotterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AF733822BB794A00B9357C /* Debug */,
+				C4AF733922BB794A00B9357C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AF733A22BB794A00B9357C /* Build configuration list for PBXNativeTarget "AotterTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AF733B22BB794A00B9357C /* Debug */,
+				C4AF733C22BB794A00B9357C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AF733D22BB794A00B9357C /* Build configuration list for PBXNativeTarget "AotterTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AF733E22BB794A00B9357C /* Debug */,
+				C4AF733F22BB794A00B9357C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4AF730322BB794800B9357C /* Project object */;
+}
