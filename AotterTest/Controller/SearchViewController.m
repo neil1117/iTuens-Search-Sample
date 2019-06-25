@@ -86,7 +86,11 @@
     if ([_searchBar.text isEqualToString:@""]) {
         return;
     }
-    NSURL *url  = [NSURL URLWithString:[NSString stringWithFormat:@"https://itunes.apple.com/search?term=%@&country=TW", _searchBar.text]];
+    
+    NSString *searchKeyWord = [_searchBar.text stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+    NSString *urlStr = [NSString stringWithFormat:@"https://itunes.apple.com/search?term=%@&country=TW", searchKeyWord];
+    urlStr = [urlStr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    NSURL *url  = [NSURL URLWithString:urlStr];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request setValue:@"applicatiopn/json" forHTTPHeaderField:@"Content-Type"];
     [[_networkManager dataTaskWithRequest:request uploadProgress:nil
