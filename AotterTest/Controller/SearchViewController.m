@@ -178,6 +178,24 @@
     return cell;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    
+    NSString *result;
+    switch (section) {
+        case movieType:
+            if (_movieArray.count > 0) {
+                result = @"電影";
+            }
+            break;
+        case musicType:
+            if (_musicArray.count > 0) {
+                result = @"音樂";
+            }
+            break;
+    }
+    return result;
+}
+
 #pragma mark - UISearchBarDelegate
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
