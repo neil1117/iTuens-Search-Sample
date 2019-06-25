@@ -87,9 +87,15 @@
         return;
     }
     
+    NSMutableCharacterSet *customCharacterSet = [[NSMutableCharacterSet alloc] init];
+    [customCharacterSet formUnionWithCharacterSet:[NSCharacterSet letterCharacterSet]];
+    [customCharacterSet formUnionWithCharacterSet:[NSCharacterSet decimalDigitCharacterSet]];
+    [customCharacterSet addCharactersInString:@".-_*+"];
+    
     NSString *searchKeyWord = [_searchBar.text stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+    searchKeyWord = [searchKeyWord stringByAddingPercentEncodingWithAllowedCharacters:customCharacterSet];
+    
     NSString *urlStr = [NSString stringWithFormat:@"https://itunes.apple.com/search?term=%@&country=TW", searchKeyWord];
-    urlStr = [urlStr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     NSURL *url  = [NSURL URLWithString:urlStr];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request setValue:@"applicatiopn/json" forHTTPHeaderField:@"Content-Type"];
