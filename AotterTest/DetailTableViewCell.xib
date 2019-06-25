@@ -43,7 +43,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="D5W-ff-eOh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -52,7 +52,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="yYE-ZS-S3W"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -61,7 +61,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="2eJ-EU-cGQ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -111,7 +111,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" id="gc4-P5-7U1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
